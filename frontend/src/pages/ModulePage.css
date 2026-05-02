@@ -1,0 +1,70 @@
+/* ModulePage.css */
+
+.module-page {
+  min-height: 100vh;
+  background: #f7fafc;
+  display: flex;
+  flex-direction: column;
+}
+
+.module-header {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(to right, #4f46e5, #667eea);
+  color: white;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.module-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.module-header h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.module-header p {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .module-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .module-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .module-header p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .module-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .module-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .module-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .module-header p {
+    font-size: 0.9rem;
+  }
+}
